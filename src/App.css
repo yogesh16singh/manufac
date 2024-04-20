@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 80vh;
+  width: 96vw;
+}
+
+
+header {
+  width: 100vw;
+  padding: 20px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+
+.mantine-Table-table {
+  width: 40vw;
+  height: 40vh;
+}
+
+.mantine-Table-th,.mantine-Table-table,.mantine-Table-td{
+  border: 1px solid rgb(50, 44, 46);
+}
+
+.mantine-Button-root{
+  padding: 1rem;
+  cursor: pointer;
+  margin: 1rem;
+}
+.button{
+  border-radius: 5px;
+  background-color: beige;
+}
+@media only screen and (max-width: 768px) {
+  .App {
+    height: 80vh;
+  }
+  
+.mantine-Table-table {
+  width: 90vw;
+}
+}
